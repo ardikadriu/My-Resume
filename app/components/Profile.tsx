@@ -9,11 +9,8 @@ const Profile = () => {
       </div>
       <h2 className="w-[289px] text-right text-3xl font-Mohave">Kadriu</h2>
 
-      <div className="bg-[#D9D9D9] max-sm:w-[253px] sm:hidden mt-[25px]">
-        <h2>as</h2>
-        <h2>as</h2>
-        <h2>as</h2>
-        <h2></h2>
+      <div className="bg-[#D9D9D9] max-sm:w-[253px] sm:hidden mt-[25px] flex justify-center items-center">
+        <h2 className="py-32">Profile Picture</h2>
       </div>
       <div className="font-Raleway mt-4">
         <h1 className="text-4xl text-center font-semibold">Profile</h1>
