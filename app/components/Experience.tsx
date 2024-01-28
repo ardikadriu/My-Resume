@@ -1,143 +1,150 @@
-import Link from "next/link";
 import Image from "next/image";
-import Basketweb from "@/public/basketball-web1.png";
-import TaxiWeb from "@/public/taxi-cover.png";
-import SimpleLogin from "@/public/web-phones.png";
-import Renthouses from "@/public/rent.png";
+import Link from "next/link";
+import Basket from "@/public/basketball-web1.png";
+import Nikeshoes from "@/public/nike-shoes.png";
 import Figma from "@/public/figma.png";
 import Github from "@/public/github.png";
 import { RxVercelLogo } from "react-icons/rx";
-
+import Watches from "@/public/Watches.png";
+import Signin from "@/public/simple sign in.png";
 const Experience = () => {
   return (
-    <div className=" max-sm:mt-10 sm:hidden">
-      <h1 className="text-center text-3xl font-semibold font-Raleway mb-5">
-        Projects
+    <div className="mt-12 ml-9 ">
+      <h1 className="text-3xl  font-Raleway font-semibold ml-9 max-w-[809px] text-center">
+        EXPERIENCE
       </h1>
-      <div className=" px-2 pt-2 mb-4">
-        <Link href={"https://basketball-g48iza31h-ardikadriu.vercel.app"}>
-          <Image src={Basketweb} width={240} height={240} alt="WEb" />
-        </Link>
-        <div className="flex items-center justify-between mt-3">
-          <Link
-            href={
-              "https://www.figma.com/file/WaWEV7MRljBVpqne552uEI/Sport-Website-(Community)?mode=dev"
-            }
-          >
-            <Image src={Figma} width={30} height={40} alt="figma" />
+      <div className="flex justify-between mt-12  w-[809px]">
+        <div>
+          <Link href={"https://vercel.com/ardikadriu/basketball-web"}>
+            <Image src={Basket} width={300} height={250} alt="baket" />
           </Link>
-
-          <Link href={"https://basketball-g48iza31h-ardikadriu.vercel.app"}>
-            <RxVercelLogo size={30} />
-          </Link>
-
-          <Link href={"https://github.com/ardikadriu/Basketball-web"}>
-            <Image
-              className="object-contain"
-              src={Github}
-              width={30}
-              height={40}
-              alt="github"
-            />
-          </Link>
-        </div>
-      </div>
-
-      <div className=" px-2 pt-2 mb-4">
-        <Link href={"https://taxiapp-mobile.vercel.app/"}>
-          <Image src={TaxiWeb} width={240} height={240} alt="WEb" />
-        </Link>
-        <div className="flex items-center justify-between mt-3">
-          <Link
-            href={
-              "https://www.figma.com/file/Jd1A4gexkxCjeXsP72bo1t/Taxi-App-(Community)?node-id=0%3A1&mode=dev"
-            }
-          >
-            <Image src={Figma} width={30} height={40} alt="figma" />
-          </Link>
-
-          <Link href={"https://vercel.com/ardikadriu/taxiapp-mobile"}>
-            <RxVercelLogo size={30} />
-          </Link>
-
-          <Link href={"https://github.com/ardikadriu/Taxiapp-mobile"}>
-            <Image
-              className="object-contain"
-              src={Github}
-              width={30}
-              height={40}
-              alt="github"
-            />
-          </Link>
-        </div>
-      </div>
-
-      <div className=" px-2 pt-2">
-        <Link href={"https://figma-mobile-design-u1bj.vercel.app/"}>
-          <Image src={SimpleLogin} width={240} height={140} alt="WEb" />
-        </Link>
-        <div className="flex items-center justify-between mt-3">
-          <Link
-            href={
-              "https://www.figma.com/file/esbLh7WF0FlnOVOvJ6dNi2/figma-mobile-application-simple-design-(Community)?mode=dev"
-            }
-          >
-            <Image src={Figma} width={30} height={40} alt="figma" />
-          </Link>
-
-          <Link href={"https://vercel.com/ardikadriu/figma-mobile-design-u1bj"}>
-            <RxVercelLogo size={30} />
-          </Link>
-
-          <Link href={"https://github.com/ardikadriu/Basketball-web"}>
-            <Image
-              className="object-contain"
-              src={Github}
-              width={30}
-              height={40}
-              alt="github"
-            />
-          </Link>
-        </div>
-      </div>
-
-      <div className=" px-2 pt-2 mt-4">
-        <Link href={"https://rent-house-xi.vercel.app/"}>
-          <Image src={Renthouses} width={240} height={240} alt="WEb" />
-        </Link>
-        <div className="flex">
-          <div className="flex w-full items-center justify-between mt-3">
+          <div className="flex justify-between mt-4">
             <Link
               href={
-                "https://www.figma.com/file/1NRkJjfai8AhGC1zOqjkJw/Rent-House-App-(Community)?mode=dev"
+                "https://www.figma.com/file/Friex6UklMP2wriHhPTR27/Sport-Website-(Community)?type=design&mode=design"
               }
             >
-              <Image src={Figma} width={30} height={40} alt="figma" />
+              <Image src={Figma} width={30} height={50} alt="figma" />
             </Link>
-
-            <Link href={"https://vercel.com/ardikadriu/rent-house"}>
+            <Link href={"https://vercel.com/ardikadriu/basketball-web"}>
               <RxVercelLogo size={30} />
             </Link>
-
-            <Link href={"https://github.com/ardikadriu/Rent-house"}>
+            <Link href={"https://github.com/ardikadriu/Basketball-web"}>
               <Image
-                className="object-contain"
                 src={Github}
                 width={30}
-                height={40}
-                alt="github"
+                height={50}
+                alt="git hub
+          "
+              />
+            </Link>
+          </div>
+        </div>
+        <div>
+          <Link href={"https://nike-layout.vercel.app/"}>
+            <Image
+              className="h-[142px]"
+              src={Nikeshoes}
+              width={300}
+              height={250}
+              alt="baket"
+            />
+          </Link>
+          <div className="flex justify-between mt-4">
+            <Link
+              href={
+                "https://www.figma.com/file/1qzy1idS9BgNHHpIzD8EUM/nike-shoes-logo-(Community)?mode=dev"
+              }
+            >
+              <Image src={Figma} width={30} height={50} alt="figma" />
+            </Link>
+
+            <Link href={"https://vercel.com/ardikadriu/nike-layout"}>
+              <RxVercelLogo size={30} />
+            </Link>
+            <Link href={"https://github.com/ardikadriu/nike-layout"}>
+              <Image
+                src={Github}
+                width={30}
+                height={50}
+                alt="git hub
+          "
               />
             </Link>
           </div>
         </div>
       </div>
-      <div>
-        <p className="max-w-[250px] text-center font-Raleway mt-6 font-medium">
-          Experienced in crafting 50+ Figma templates. Eager to leverage
-          creative skills and learn quickly in a collaborative development
-          environment.
-        </p>
+      <div className="flex justify-between mt-12  w-[809px]">
+        <div>
+          <Link href={"https://watches-iota.vercel.app/"}>
+            <Image
+              className="h-[142px]"
+              src={Watches}
+              width={300}
+              height={142}
+              alt="baket"
+            />
+          </Link>
+          <div className="flex justify-between mt-4">
+            <Link
+              href={
+                "https://www.figma.com/file/Gyyca3XdpQPQnkhXKqnXqN/Smart-Watch-eCommerce-Website-(Community)?node-id=0%3A1&mode=dev"
+              }
+            >
+              <Image src={Figma} width={30} height={50} alt="figma" />
+            </Link>
+            <Link href={"https://vercel.com/ardikadriu/watches"}>
+              <RxVercelLogo size={30} />
+            </Link>
+            <Link href={"https://github.com/ardikadriu/Watches"}>
+              <Image
+                src={Github}
+                width={30}
+                height={50}
+                alt="git hub
+          "
+              />
+            </Link>
+          </div>
+        </div>
+        <div>
+          <Link href={"https://sign-in-design.vercel.app/"}>
+            <Image
+              className="h-[142px]"
+              src={Signin}
+              width={300}
+              height={250}
+              alt="baket"
+            />
+          </Link>
+          <div className="flex justify-between mt-4">
+            <Link
+              href={
+                "https://www.figma.com/file/5UAzszP1yzinVOBxCFuoWk/Sign-In-Page-Design-(Community)?mode=dev"
+              }
+            >
+              <Image src={Figma} width={30} height={50} alt="figma" />
+            </Link>
+            <Link href={"https://vercel.com/ardikadriu/sign-in-design"}>
+              <RxVercelLogo size={30} />
+            </Link>
+            <Link href={"https://github.com/ardikadriu/Sign-in-Design"}>
+              <Image
+                src={Github}
+                width={30}
+                height={50}
+                alt="git hub
+          "
+              />
+            </Link>
+          </div>
+        </div>
       </div>
+      <p className=" max-w-[809px] text-center mt-7 leading-5 text-[15px] font-Raleway">
+        {" "}
+        Experienced in crafting 50+ Figma templates. Eager to leverage creative
+        skills and learn quickly in a collaborative development environment.
+      </p>
     </div>
   );
 };

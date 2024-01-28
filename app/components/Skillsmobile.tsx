@@ -1,7 +1,6 @@
-const Skills = () => {
+const Skillsmobile = () => {
   return (
-    <div className="flex mt-20">
-      {" "}
+    <div className=" flex sm:hidden py-10">
       <div className="flex">
         <div className="mt-[59px]">
           <div className="w-[114px] h-2 bg-[#D9D9D9] rounded-sm">
@@ -29,14 +28,14 @@ const Skills = () => {
           <h2>Next.js</h2>
         </div>
       </div>
-      <div className="w-0.5 h-36 bg-black ml-4 flex flex-col items-center ">
-        <div className="w-1.5 h-1.5 rounded-md bg-purple-950 mt-[57px] mb-3.5 "></div>
-        <div className="w-1.5 h-1.5 rounded-md bg-purple-950 mb-5"></div>
-        <div className="w-1.5 h-1.5 rounded-md bg-purple-950 mb-5"></div>
-        <div className="w-1.5 h-1.5 rounded-md bg-purple-950 mt-"></div>
+      <div className="w-0.5 h-36 bg-black ml-4 flex flex-col items-center mt-">
+        <div className="w-1.5 h-1.5 rounded-md bg-purple-950 mt-[59px]"></div>
+        <div className="w-1.5 h-1.5 rounded-md bg-purple-950 mt-4"></div>
+        <div className="w-1.5 h-1.5 rounded-md bg-purple-950 mt-5"></div>
+        <div className="w-1.5 h-1.5 rounded-md bg-purple-950 mt-4"></div>
       </div>
     </div>
   );
 };
 
-export default Skills;
+export default Skillsmobile;
