@@ -25,7 +25,7 @@ const Skills = () => {
           </h1>
           <h2>Html</h2>
           <h2>CSS</h2>
-          <h2>Java</h2>
+          <h2>JavaScript</h2>
           <h2>Next.js</h2>
         </div>
       </div>
