@@ -3,7 +3,7 @@ import { PiBasketballLight } from "react-icons/pi";
 import { FaGoogle } from "react-icons/fa";
 const Contactmobile = () => {
   return (
-    <div className=" sm:hidden mt-10  mb-5">
+    <div className=" sm:hidden mt-10  mb-5" id="Contact">
       <h1 className="text-center font-Raleway text-3xl font-semibold">
         Contact
       </h1>

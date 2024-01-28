@@ -10,7 +10,7 @@ import { RxVercelLogo } from "react-icons/rx";
 
 const Experiencemobile = () => {
   return (
-    <div className=" max-sm:mt-10 sm:hidden">
+    <div className=" max-sm:mt-10 sm:hidden" id="Experience">
       <h1 className="text-center text-3xl font-semibold font-Raleway mb-5">
         Projects
       </h1>

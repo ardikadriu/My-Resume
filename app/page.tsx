@@ -1,13 +1,14 @@
-import Profilemobile from "./components/Profilemobile";
-import Skillsmobile from "./components/Skillsmobile";
-import Experiencemobile from "./components/Experiencemobile";
+import Profilemobile from "./Mobilecomponents/Profilemobile";
+import Skillsmobile from "./Mobilecomponents/Skillsmobile";
+import Experiencemobile from "./Mobilecomponents/Experiencemobile";
 import Firstsection from "./section/Firstsection";
 import Secondsection from "./section/Secondsection";
-import Thirdsection from "./section/Thirdsection";
-import Contactmobile from "./components/Contactmobile";
+import Contactmobile from "./Mobilecomponents/Contactmobile";
+import Navbar from "./Mobilecomponents/Navbar";
 export default function Home() {
   return (
     <main className="max-sm:flex max-sm:flex-col max-sm:items-center bg-white flex">
+      <Navbar />
       <Profilemobile />
       <Skillsmobile />
       <Experiencemobile />

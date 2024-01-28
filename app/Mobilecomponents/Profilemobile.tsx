@@ -2,7 +2,10 @@ import Image from "next/image";
 
 const Profilemobile = () => {
   return (
-    <div className="max-sm:flex max-sm:flex-col max-sm:items-center mt-[25px] sm:hidden mb-6">
+    <div
+      className="max-sm:flex max-sm:flex-col max-sm:items-center mt-[25px] sm:hidden mb-6"
+      id="Profile"
+    >
       <div className="flex items-center">
         <div className="w-[130px] h-[1px] bg-[#000]"></div>{" "}
         <h1 className="text-6xl font-Mohave  tracking-[0.922px] ml-5">Ardi</h1>{" "}
