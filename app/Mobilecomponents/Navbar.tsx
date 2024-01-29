@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <div className="sm:hidden mt-4">
+    <div className="sm:hidden mt-4   ">
       <ul className="flex gap-5 font-Mohave font-semibold active:red ">
         <Link href={"#Profile"}>
           {" "}

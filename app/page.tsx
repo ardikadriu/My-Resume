@@ -7,7 +7,7 @@ import Contactmobile from "./Mobilecomponents/Contactmobile";
 import Navbar from "./Mobilecomponents/Navbar";
 export default function Home() {
   return (
-    <main className="max-sm:flex max-sm:flex-col max-sm:items-center bg-white flex">
+    <main className="max-sm:flex max-sm:flex-col max-sm:items-center bg-white flex max-sm:relative">
       <Navbar />
       <Profilemobile />
       <Skillsmobile />

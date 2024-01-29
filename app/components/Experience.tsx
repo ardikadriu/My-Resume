@@ -10,7 +10,7 @@ import Signin from "@/public/simple sign in.png";
 const Experience = () => {
   return (
     <div className="mt-12 ml-9 ">
-      <h1 className="text-3xl  font-Raleway font-semibold ml-9 max-w-[809px] text-center">
+      <h1 className="text-3xl  font-Raleway font-semibold ml-9 max-w-[809px] text-center mr-10">
         EXPERIENCE
       </h1>
       <div className="flex justify-between mt-12  w-[809px]">
