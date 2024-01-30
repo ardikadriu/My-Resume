@@ -7,7 +7,8 @@ import Renthouses from "@/public/rent.png";
 import Figma from "@/public/figma.png";
 import Github from "@/public/github.png";
 import { RxVercelLogo } from "react-icons/rx";
-
+import { LuFigma } from "react-icons/lu";
+import { FaGithub } from "react-icons/fa6";
 const Experiencemobile = () => {
   return (
     <div className=" max-sm:mt-10 sm:hidden" id="Experience">
@@ -24,7 +25,7 @@ const Experiencemobile = () => {
               "https://www.figma.com/file/WaWEV7MRljBVpqne552uEI/Sport-Website-(Community)?mode=dev"
             }
           >
-            <Image src={Figma} width={30} height={40} alt="figma" />
+            <LuFigma size={25} />
           </Link>
 
           <Link href={"https://basketball-g48iza31h-ardikadriu.vercel.app"}>
@@ -32,13 +33,7 @@ const Experiencemobile = () => {
           </Link>
 
           <Link href={"https://github.com/ardikadriu/Basketball-web"}>
-            <Image
-              className="object-contain"
-              src={Github}
-              width={30}
-              height={40}
-              alt="github"
-            />
+            <FaGithub size={29} />
           </Link>
         </div>
       </div>
@@ -53,7 +48,7 @@ const Experiencemobile = () => {
               "https://www.figma.com/file/Jd1A4gexkxCjeXsP72bo1t/Taxi-App-(Community)?node-id=0%3A1&mode=dev"
             }
           >
-            <Image src={Figma} width={30} height={40} alt="figma" />
+            <LuFigma size={25} />
           </Link>
 
           <Link href={"https://vercel.com/ardikadriu/taxiapp-mobile"}>
@@ -61,13 +56,7 @@ const Experiencemobile = () => {
           </Link>
 
           <Link href={"https://github.com/ardikadriu/Taxiapp-mobile"}>
-            <Image
-              className="object-contain"
-              src={Github}
-              width={30}
-              height={40}
-              alt="github"
-            />
+            <FaGithub size={29} />
           </Link>
         </div>
       </div>
@@ -82,7 +71,7 @@ const Experiencemobile = () => {
               "https://www.figma.com/file/esbLh7WF0FlnOVOvJ6dNi2/figma-mobile-application-simple-design-(Community)?mode=dev"
             }
           >
-            <Image src={Figma} width={30} height={40} alt="figma" />
+            <LuFigma size={25} />
           </Link>
 
           <Link href={"https://vercel.com/ardikadriu/figma-mobile-design-u1bj"}>
@@ -90,13 +79,7 @@ const Experiencemobile = () => {
           </Link>
 
           <Link href={"https://github.com/ardikadriu/Basketball-web"}>
-            <Image
-              className="object-contain"
-              src={Github}
-              width={30}
-              height={40}
-              alt="github"
-            />
+            <FaGithub size={29} />
           </Link>
         </div>
       </div>
@@ -112,7 +95,7 @@ const Experiencemobile = () => {
                 "https://www.figma.com/file/WaWEV7MRljBVpqne552uEI/Sport-Website-(Community)?mode=dev"
               }
             >
-              <Image src={Figma} width={30} height={40} alt="figma" />
+              <LuFigma size={25} />
             </Link>
 
             <Link href={"https://vercel.com/ardikadriu/rent-house"}>
@@ -120,13 +103,7 @@ const Experiencemobile = () => {
             </Link>
 
             <Link href={"https://github.com/ardikadriu/Rent-house"}>
-              <Image
-                className="object-contain"
-                src={Github}
-                width={30}
-                height={40}
-                alt="github"
-              />
+              <FaGithub size={29} />
             </Link>
           </div>
         </div>
