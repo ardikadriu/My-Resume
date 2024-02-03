@@ -1,5 +1,6 @@
 import { FaInstagram } from "react-icons/fa";
-import { PiBasketballLight } from "react-icons/pi";
+import { CiLinkedin } from "react-icons/ci";
+
 import { FaGoogle } from "react-icons/fa";
 
 const Contact = () => {
@@ -14,9 +15,12 @@ const Contact = () => {
         </h3>
         <div className="flex justify-end mt-[11px]">
           <div className=" text-right flex w-[72px] justify-between">
-            <FaInstagram />
-            <PiBasketballLight size={17} />
-            <FaGoogle />
+            <FaInstagram className="transform hover:scale-150 ease-out duration-300" />
+            <CiLinkedin
+              className="transform hover:scale-150 ease-out duration-300"
+              size={17}
+            />
+            <FaGoogle className="transform hover:scale-150 ease-out duration-300" />
           </div>
         </div>
       </div>

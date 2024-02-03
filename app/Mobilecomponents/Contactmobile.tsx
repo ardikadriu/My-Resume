@@ -10,9 +10,12 @@ const Contactmobile = () => {
       <h2 className="font-Mohave mt-2">ardikadriu156@gmail.com</h2>
       <div className="flex justify-between mt-3">
         {" "}
-        <FaInstagram />
-        <PiBasketballLight size={17} />
-        <FaGoogle />
+        <FaInstagram className="hover:scale-125 duration-500 ease-out" />
+        <PiBasketballLight
+          className="hover:scale-125 duration-500 ease-out"
+          size={17}
+        />
+        <FaGoogle className="hover:scale-125 duration-500 ease-out" />
       </div>
     </div>
   );

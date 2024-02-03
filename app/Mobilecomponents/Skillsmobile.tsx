@@ -1,6 +1,6 @@
 const Skillsmobile = () => {
   return (
-    <div className=" flex sm:hidden py-10" id="Skills">
+    <div className=" flex sm:hidden py-10  " id="Skills">
       <div className="flex">
         <div className="mt-[59px]">
           <div className="w-[114px] h-2 bg-[#D9D9D9] rounded-sm">

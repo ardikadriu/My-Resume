@@ -1,17 +1,19 @@
 import Link from "next/link";
 import Image from "next/image";
-import Basketweb from "@/public/basketball-web1.png";
-import TaxiWeb from "@/public/taxi-cover.png";
-import SimpleLogin from "@/public/web-phones.png";
-import Renthouses from "@/public/rent.png";
-import Figma from "@/public/figma.png";
-import Github from "@/public/github.png";
+import Basketweb from "@/public/Projects/basketball-web1.png";
+import TaxiWeb from "@/public/Projects-mobile/taxi-cover.png";
+import SimpleLogin from "@/public/Projects-mobile/web-phones.png";
+import Renthouses from "@/public/Projects-mobile/rent.png";
+
 import { RxVercelLogo } from "react-icons/rx";
 import { LuFigma } from "react-icons/lu";
 import { FaGithub } from "react-icons/fa6";
 const Experiencemobile = () => {
   return (
-    <div className=" max-sm:mt-10 sm:hidden" id="Experience">
+    <div
+      className=" max-sm:mt-10 sm:hidden ease-out duration-500"
+      id="Experience"
+    >
       <h1 className="text-center text-3xl font-semibold font-Raleway mb-5">
         Projects
       </h1>

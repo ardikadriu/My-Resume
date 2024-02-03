@@ -11,7 +11,7 @@ const Navbar = () => {
 
         <Link href={"#Skills"}>
           {" "}
-          <li>Skills</li>
+          <li className="scroll-smooth ">Skills</li>
         </Link>
 
         <Link href={"#Experience"}>

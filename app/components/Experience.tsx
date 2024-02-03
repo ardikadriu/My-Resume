@@ -1,12 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
-import Basket from "@/public/basketball-web1.png";
-import Nikeshoes from "@/public/nike-shoes.png";
-import Figma from "@/public/figma.png";
-import Github from "@/public/github.png";
+
+import Basket from "@/public/Projects/basketball-web1.png";
+import Nikeshoes from "@/public/Projects/nike-shoes.png";
+import Watches from "@/public/Projects/Watches.png";
+import Signin from "@/public/Projects/simple sign in.png";
+
 import { RxVercelLogo } from "react-icons/rx";
-import Watches from "@/public/Watches.png";
-import Signin from "@/public/simple sign in.png";
+import { LuFigma } from "react-icons/lu";
+import { FaGithub } from "react-icons/fa6";
 const Experience = () => {
   return (
     <div className="mt-12 ml-9 ">
@@ -24,19 +26,14 @@ const Experience = () => {
                 "https://www.figma.com/file/Friex6UklMP2wriHhPTR27/Sport-Website-(Community)?type=design&mode=design"
               }
             >
-              <Image src={Figma} width={30} height={50} alt="figma" />
+              <LuFigma size={30} />
             </Link>
+
             <Link href={"https://vercel.com/ardikadriu/basketball-web"}>
               <RxVercelLogo size={30} />
             </Link>
             <Link href={"https://github.com/ardikadriu/Basketball-web"}>
-              <Image
-                src={Github}
-                width={30}
-                height={50}
-                alt="git hub
-          "
-              />
+              <FaGithub size={30} />
             </Link>
           </div>
         </div>
@@ -56,20 +53,14 @@ const Experience = () => {
                 "https://www.figma.com/file/1qzy1idS9BgNHHpIzD8EUM/nike-shoes-logo-(Community)?mode=dev"
               }
             >
-              <Image src={Figma} width={30} height={50} alt="figma" />
+              <LuFigma size={30} />
             </Link>
 
             <Link href={"https://vercel.com/ardikadriu/nike-layout"}>
               <RxVercelLogo size={30} />
             </Link>
             <Link href={"https://github.com/ardikadriu/nike-layout"}>
-              <Image
-                src={Github}
-                width={30}
-                height={50}
-                alt="git hub
-          "
-              />
+              <FaGithub size={30} />
             </Link>
           </div>
         </div>
@@ -91,19 +82,13 @@ const Experience = () => {
                 "https://www.figma.com/file/Gyyca3XdpQPQnkhXKqnXqN/Smart-Watch-eCommerce-Website-(Community)?node-id=0%3A1&mode=dev"
               }
             >
-              <Image src={Figma} width={30} height={50} alt="figma" />
+              <LuFigma size={30} />
             </Link>
             <Link href={"https://vercel.com/ardikadriu/watches"}>
               <RxVercelLogo size={30} />
             </Link>
             <Link href={"https://github.com/ardikadriu/Watches"}>
-              <Image
-                src={Github}
-                width={30}
-                height={50}
-                alt="git hub
-          "
-              />
+              <FaGithub size={30} />
             </Link>
           </div>
         </div>
@@ -123,19 +108,13 @@ const Experience = () => {
                 "https://www.figma.com/file/5UAzszP1yzinVOBxCFuoWk/Sign-In-Page-Design-(Community)?mode=dev"
               }
             >
-              <Image src={Figma} width={30} height={50} alt="figma" />
+              <LuFigma size={30} />
             </Link>
             <Link href={"https://vercel.com/ardikadriu/sign-in-design"}>
               <RxVercelLogo size={30} />
             </Link>
             <Link href={"https://github.com/ardikadriu/Sign-in-Design"}>
-              <Image
-                src={Github}
-                width={30}
-                height={50}
-                alt="git hub
-          "
-              />
+              <FaGithub size={30} />
             </Link>
           </div>
         </div>
