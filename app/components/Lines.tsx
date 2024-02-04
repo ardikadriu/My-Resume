@@ -3,7 +3,7 @@ import Prof from "./Prof";
 
 const Lines = () => {
   return (
-    <div className="mt-16">
+    <div className="mt-16 ">
       <div className="w-0.5 h-32  bg-black ml-9"></div>
 
       <h1 className="my-6 text-2xl ">UX/UI DESIGNER</h1>
