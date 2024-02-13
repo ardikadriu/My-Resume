@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,14 +11,25 @@ import Signin from "@/public/Projects/simple sign in.png";
 import { RxVercelLogo } from "react-icons/rx";
 import { LuFigma } from "react-icons/lu";
 import { FaGithub } from "react-icons/fa6";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Experience = () => {
+  useEffect(() => {
+    AOS.init({}), [];
+  });
   return (
     <div className="mt-12 ml-9 max-md:pr-5 ">
-      <h1 className="text-3xl  font-Raleway font-semibold  max-w-[809px]  mr-10">
+      <h1
+        data-aos="flip-right"
+        data-aos-duration="400"
+        className="text-3xl  font-Raleway font-semibold  max-w-[809px]  mr-10"
+      >
         EXPERIENCE
       </h1>
       <div className="flex justify-between mt-12 max-md:w-[709px]  max-md:flex max-md:justify-between  w-[809px]">
-        <div>
+        <div data-aos="flip-right" data-aos-duration="400" data-aos-delay="200">
           <Link href={"https://vercel.com/ardikadriu/basketball-web"}>
             <Image src={Basket} width={300} height={250} alt="baket" />
           </Link>
@@ -46,7 +59,7 @@ const Experience = () => {
             </Link>
           </div>
         </div>
-        <div>
+        <div data-aos="flip-right" data-aos-duration="600" data-aos-delay="400">
           <Link href={"https://nike-layout.vercel.app/"}>
             <Image
               className="h-[142px] max-md:h-[142px]"
@@ -84,7 +97,7 @@ const Experience = () => {
         </div>
       </div>
       <div className="flex justify-between mt-12  w-[809px] max-md:w-[709px]  max-md:flex max-md:justify-between">
-        <div>
+        <div data-aos="flip-right" data-aos-duration="600" data-aos-delay="200">
           <Link href={"https://watches-iota.vercel.app/"}>
             <Image
               className="h-[142px]"
@@ -119,7 +132,7 @@ const Experience = () => {
             </Link>
           </div>
         </div>
-        <div>
+        <div data-aos="flip-right" data-aos-duration="600" data-aos-delay="400">
           <Link href={"https://sign-in-design.vercel.app/"}>
             <Image
               className="h-[142px]"
@@ -154,9 +167,8 @@ const Experience = () => {
             </Link>
           </div>
         </div>
-      </div>
-      <p className=" max-w-[809px] text-center mt-7 leading-5 text-[15px] font-Raleway">
-        {" "}
+      </div>{" "}
+      <p className=" max-w-[809px] text-center mt-7 leading-5 text-[15px] font-Raleway ">
         Experienced in crafting 50+ Figma templates. Eager to leverage creative
         skills and learn quickly in a collaborative development environment.
       </p>

@@ -1,11 +1,24 @@
+"use client";
 import { FaInstagram } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 
 import { FaGoogle } from "react-icons/fa";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init({});
+  });
+
   return (
-    <div className="flex mt-24 pb-10">
+    <div
+      data-aos="fade-right"
+      data-aos-duration="1000"
+      data-aos-delay="10"
+      className="flex mt-24 pb-10"
+    >
       <div className=" mt-[11px] ">
         <h1 className="text-3xl text-right leading-9 tracking-[1.5px] font-Raleway font-semibold ">
           Contact

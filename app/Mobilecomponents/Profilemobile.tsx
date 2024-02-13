@@ -1,8 +1,18 @@
+"use client";
+import { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import Image from "next/image";
 
 const Profilemobile = () => {
+  useEffect(() => {
+    AOS.init({});
+  });
   return (
     <div
+      data-aos="flip-right"
+      data-aos-duration="100"
       className="max-sm:flex max-sm:flex-col max-sm:items-center mt-[25px] sm:hidden mb-6"
       id="Profile"
     >

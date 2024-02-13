@@ -1,6 +1,18 @@
+"use client";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Prof = () => {
+  useEffect(() => {
+    AOS.init({});
+  });
   return (
-    <div className="max-w-[593px] mt-[151px] ml-9">
+    <div
+      data-aos="fade-left"
+      data-aos-duration="200"
+      className="max-w-[593px] mt-[151px] ml-9"
+    >
       <h1 className="text-3xl font-semibold font-Raleway leading-[38px] tracking-[1.5px] uppercase ">
         Profile
       </h1>

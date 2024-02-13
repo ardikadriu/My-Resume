@@ -1,6 +1,19 @@
+"use client";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Profile = () => {
+  useEffect(() => {
+    AOS.init({});
+  });
+
   return (
-    <div className="max-sm:hidden max-md:pl-4">
+    <div
+      data-aos="fade-right"
+      data-aos-duration="200"
+      className="max-sm:hidden max-md:pl-4"
+    >
       <div className="flex  mt-52 items-center ml-4 ">
         <div className="w-32 h-[1px] bg-black flex mb-11 "></div>
         <div className="flex flex-col ">

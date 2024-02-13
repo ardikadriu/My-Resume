@@ -1,6 +1,15 @@
+"use client";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Skills = () => {
+  useEffect(() => {
+    AOS.init({});
+  });
+
   return (
-    <div className="flex mt-20">
+    <div className="flex mt-20 " data-aos="fade-right" data-aos-duration="700">
       {" "}
       <div className="flex">
         <div className="mt-[59px]">

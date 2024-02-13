@@ -1,3 +1,8 @@
+"use client";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import Link from "next/link";
 import Image from "next/image";
 import Basketweb from "@/public/Projects/basketball-web1.png";
@@ -9,6 +14,9 @@ import { RxVercelLogo } from "react-icons/rx";
 import { LuFigma } from "react-icons/lu";
 import { FaGithub } from "react-icons/fa6";
 const Experiencemobile = () => {
+  useEffect(() => {
+    AOS.init({});
+  });
   return (
     <div
       className=" max-sm:mt-10 sm:hidden ease-out duration-500"
@@ -17,7 +25,12 @@ const Experiencemobile = () => {
       <h1 className="text-center text-3xl font-semibold font-Raleway mb-5">
         Projects
       </h1>
-      <div className=" px-2 pt-2 mb-4">
+      <div
+        data-aos="flip-right"
+        data-aos-duration="500"
+        data-aos-delay="200"
+        className=" px-2 pt-2 mb-4 "
+      >
         <Link href={"https://basketball-g48iza31h-ardikadriu.vercel.app"}>
           <Image src={Basketweb} width={240} height={240} alt="WEb" />
         </Link>
@@ -40,7 +53,12 @@ const Experiencemobile = () => {
         </div>
       </div>
 
-      <div className=" px-2 pt-2 mb-4">
+      <div
+        data-aos="flip-right"
+        data-aos-duration="500"
+        data-aos-delay="400"
+        className=" px-2 pt-2 mb-4"
+      >
         <Link href={"https://taxiapp-mobile.vercel.app/"}>
           <Image src={TaxiWeb} width={240} height={240} alt="WEb" />
         </Link>
@@ -63,7 +81,12 @@ const Experiencemobile = () => {
         </div>
       </div>
 
-      <div className=" px-2 pt-2">
+      <div
+        data-aos="flip-right"
+        data-aos-duration="500"
+        data-aos-delay="600"
+        className=" px-2 pt-2"
+      >
         <Link href={"https://figma-mobile-design-u1bj.vercel.app/"}>
           <Image src={SimpleLogin} width={240} height={140} alt="WEb" />
         </Link>
@@ -86,7 +109,7 @@ const Experiencemobile = () => {
         </div>
       </div>
 
-      <div className=" px-2 pt-2 mt-4">
+      <div data-aos="flip-right" className=" px-2 pt-2 mt-4">
         <Link href={"https://rent-house-xi.vercel.app/"}>
           <Image src={Renthouses} width={240} height={240} alt="WEb" />
         </Link>
@@ -111,7 +134,12 @@ const Experiencemobile = () => {
         </div>
       </div>
       <div>
-        <p className="max-w-[250px] text-center font-Raleway mt-6 font-medium">
+        <p
+          data-aos="flip-right"
+          data-aos-duration="500"
+          data-aos-delay="800"
+          className="max-w-[250px] text-center font-Raleway mt-6 font-medium"
+        >
           Experienced in crafting 50+ Figma templates. Eager to leverage
           creative skills and learn quickly in a collaborative development
           environment.
