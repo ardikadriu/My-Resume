@@ -109,7 +109,12 @@ const Experiencemobile = () => {
         </div>
       </div>
 
-      <div data-aos="flip-right" className=" px-2 pt-2 mt-4">
+      <div
+        data-aos="flip-right"
+        data-aos-duration="500"
+        data-aos-delay="800"
+        className=" px-2 pt-2 mt-4"
+      >
         <Link href={"https://rent-house-xi.vercel.app/"}>
           <Image src={Renthouses} width={240} height={240} alt="WEb" />
         </Link>
@@ -137,7 +142,7 @@ const Experiencemobile = () => {
         <p
           data-aos="flip-right"
           data-aos-duration="500"
-          data-aos-delay="800"
+          data-aos-delay="600"
           className="max-w-[250px] text-center font-Raleway mt-6 font-medium"
         >
           Experienced in crafting 50+ Figma templates. Eager to leverage
