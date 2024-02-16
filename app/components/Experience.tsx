@@ -59,7 +59,7 @@ const Experience = () => {
             </Link>
           </div>
         </div>
-        <div data-aos="flip-right" data-aos-duration="600" data-aos-delay="400">
+        <div data-aos="flip-right" data-aos-duration="400" data-aos-delay="200">
           <Link href={"https://nike-layout.vercel.app/"}>
             <Image
               className="h-[142px] max-md:h-[142px]"
@@ -97,7 +97,7 @@ const Experience = () => {
         </div>
       </div>
       <div className="flex justify-between mt-12  w-[809px] max-md:w-[709px]  max-md:flex max-md:justify-between">
-        <div data-aos="flip-right" data-aos-duration="600" data-aos-delay="200">
+        <div data-aos="flip-right" data-aos-duration="400" data-aos-delay="200">
           <Link href={"https://watches-iota.vercel.app/"}>
             <Image
               className="h-[142px]"
@@ -132,7 +132,7 @@ const Experience = () => {
             </Link>
           </div>
         </div>
-        <div data-aos="flip-right" data-aos-duration="600" data-aos-delay="400">
+        <div data-aos="flip-right" data-aos-duration="400" data-aos-delay="200">
           <Link href={"https://sign-in-design.vercel.app/"}>
             <Image
               className="h-[142px]"

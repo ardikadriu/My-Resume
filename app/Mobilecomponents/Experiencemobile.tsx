@@ -27,8 +27,7 @@ const Experiencemobile = () => {
       </h1>
       <div
         data-aos="flip-right"
-        data-aos-duration="500"
-        data-aos-delay="200"
+        data-aos-duration="200"
         className=" px-2 pt-2 mb-4 "
       >
         <Link href={"https://basketball-g48iza31h-ardikadriu.vercel.app"}>
@@ -55,8 +54,7 @@ const Experiencemobile = () => {
 
       <div
         data-aos="flip-right"
-        data-aos-duration="500"
-        data-aos-delay="400"
+        data-aos-duration="300"
         className=" px-2 pt-2 mb-4"
       >
         <Link href={"https://taxiapp-mobile.vercel.app/"}>
@@ -81,12 +79,7 @@ const Experiencemobile = () => {
         </div>
       </div>
 
-      <div
-        data-aos="flip-right"
-        data-aos-duration="500"
-        data-aos-delay="600"
-        className=" px-2 pt-2"
-      >
+      <div data-aos="flip-right" data-aos-duration="400" className=" px-2 pt-2">
         <Link href={"https://figma-mobile-design-u1bj.vercel.app/"}>
           <Image src={SimpleLogin} width={240} height={140} alt="WEb" />
         </Link>
@@ -111,8 +104,7 @@ const Experiencemobile = () => {
 
       <div
         data-aos="flip-right"
-        data-aos-duration="500"
-        data-aos-delay="800"
+        data-aos-duration="400"
         className=" px-2 pt-2 mt-4"
       >
         <Link href={"https://rent-house-xi.vercel.app/"}>
@@ -141,8 +133,7 @@ const Experiencemobile = () => {
       <div>
         <p
           data-aos="flip-right"
-          data-aos-duration="500"
-          data-aos-delay="600"
+          data-aos-duration="400"
           className="max-w-[250px] text-center font-Raleway mt-6 font-medium"
         >
           Experienced in crafting 50+ Figma templates. Eager to leverage

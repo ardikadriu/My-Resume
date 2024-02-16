@@ -32,14 +32,19 @@ const Contact = () => {
             <CiLinkedin
               className="transform hover:scale-150 ease-out duration-300"
               size={17}
-            />
+            />{" "}
             <FaGoogle className="transform hover:scale-150 ease-out duration-300" />
           </div>
         </div>
       </div>
       <div className=" h-[102px] w-[2px] bg-black ml-4 flex justify-center ">
         <div className="">
-          <div className="w-2 h-2 rounded-md bg-purple-950 mt-14"></div>
+          <div
+            data-aos="fade-down"
+            data-aos-duration="500"
+            data-aos-delay="600"
+            className="w-2 h-2 rounded-md bg-purple-950 mt-14"
+          ></div>
         </div>
       </div>
     </div>

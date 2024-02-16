@@ -11,22 +11,12 @@ const Navbar = () => {
   return (
     <div className="sm:hidden mt-4   ">
       <ul className="flex gap-5 font-Mohave font-semibold active:red ">
-        <Link
-          href={"#Profile"}
-          data-aos="fade-right"
-          data-aos-duration="200"
-          data-aos-dealy="200"
-        >
+        <Link href={"#Profile"} data-aos="fade-right" data-aos-duration="200">
           {" "}
           <li>Profile</li>
         </Link>
 
-        <Link
-          href={"#Skills"}
-          data-aos="fade-right"
-          data-aos-duration="400"
-          data-aos-dealy="400"
-        >
+        <Link href={"#Skills"} data-aos="fade-right" data-aos-duration="400">
           {" "}
           <li className="scroll-smooth ">Skills</li>
         </Link>
@@ -35,17 +25,11 @@ const Navbar = () => {
           href={"#Experience"}
           data-aos="fade-right"
           data-aos-duration="600"
-          data-aos-dealy="600"
         >
           <li>Portofolio</li>
         </Link>
 
-        <Link
-          href={"#Contact"}
-          data-aos="fade-right"
-          data-aos-duration="800"
-          data-aos-delay="800"
-        >
+        <Link href={"#Contact"} data-aos="fade-right" data-aos-duration="800">
           <li>Contact</li>
         </Link>
       </ul>
