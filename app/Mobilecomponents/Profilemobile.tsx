@@ -12,7 +12,7 @@ const Profilemobile = () => {
     <div
       data-aos="flip-right"
       data-aos-duration="100"
-      className="max-sm:flex max-sm:flex-col max-sm:items-center mt-[25px] sm:hidden mb-6"
+      className="max-sm:flex max-sm:flex-col max-sm:items-center mt-20 sm:hidden mb-6"
       id="Profile"
     >
       <div className="flex items-center">

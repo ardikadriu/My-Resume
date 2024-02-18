@@ -30,7 +30,7 @@ const Experiencemobile = () => {
         data-aos-duration="200"
         className=" px-2 pt-2 mb-4 "
       >
-        <Link href={"https://basketball-g48iza31h-ardikadriu.vercel.app"}>
+        <Link href={"https://basketball-web-ruby.vercel.app/"}>
           <Image src={Basketweb} width={240} height={240} alt="WEb" />
         </Link>
         <div className="flex items-center justify-between mt-3">
@@ -42,7 +42,7 @@ const Experiencemobile = () => {
             <LuFigma size={25} />
           </Link>
 
-          <Link href={"https://basketball-g48iza31h-ardikadriu.vercel.app"}>
+          <Link href={"https://basketball-web-ruby.vercel.app/"}>
             <RxVercelLogo size={30} />
           </Link>
 
@@ -69,7 +69,7 @@ const Experiencemobile = () => {
             <LuFigma size={25} />
           </Link>
 
-          <Link href={"https://vercel.com/ardikadriu/taxiapp-mobile"}>
+          <Link href={"https://taxiapp-mobile.vercel.app"}>
             <RxVercelLogo size={30} />
           </Link>
 
@@ -92,7 +92,7 @@ const Experiencemobile = () => {
             <LuFigma size={25} />
           </Link>
 
-          <Link href={"https://vercel.com/ardikadriu/figma-mobile-design-u1bj"}>
+          <Link href={"https://figma-mobile-design-u1bj.vercel.app"}>
             <RxVercelLogo size={30} />
           </Link>
 
@@ -120,7 +120,7 @@ const Experiencemobile = () => {
               <LuFigma size={25} />
             </Link>
 
-            <Link href={"https://vercel.com/ardikadriu/rent-house"}>
+            <Link href={"https://rent-house-xi.vercel.app/"}>
               <RxVercelLogo size={30} />
             </Link>
 

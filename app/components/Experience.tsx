@@ -30,7 +30,7 @@ const Experience = () => {
       </h1>
       <div className="flex justify-between mt-12 max-md:w-[709px]  max-md:flex max-md:justify-between  w-[809px]">
         <div data-aos="flip-right" data-aos-duration="400" data-aos-delay="200">
-          <Link href={"https://vercel.com/ardikadriu/basketball-web"}>
+          <Link href={"https://basketball-web-ruby.vercel.app/"}>
             <Image src={Basket} width={300} height={250} alt="baket" />
           </Link>
           <div className="flex justify-between mt-4">
@@ -45,7 +45,7 @@ const Experience = () => {
               />
             </Link>
 
-            <Link href={"https://vercel.com/ardikadriu/basketball-web"}>
+            <Link href={"https://basketball-web-ruby.vercel.app/"}>
               <RxVercelLogo
                 className=" transform hover:scale-150 ease-out duration-500"
                 size={30}
@@ -81,7 +81,7 @@ const Experience = () => {
               />
             </Link>
 
-            <Link href={"https://vercel.com/ardikadriu/nike-layout"}>
+            <Link href={"https://nike-layout.vercel.app/"}>
               <RxVercelLogo
                 className=" transform hover:scale-150 ease-out duration-500"
                 size={30}
@@ -118,7 +118,7 @@ const Experience = () => {
                 size={30}
               />
             </Link>
-            <Link href={"https://vercel.com/ardikadriu/watches"}>
+            <Link href={"https://watches-iota.vercel.app/"}>
               <RxVercelLogo
                 className=" transform hover:scale-150 ease-out duration-500"
                 size={30}
@@ -153,7 +153,7 @@ const Experience = () => {
                 size={30}
               />
             </Link>
-            <Link href={"https://vercel.com/ardikadriu/sign-in-design"}>
+            <Link href={"https://sign-in-design.vercel.app/"}>
               <RxVercelLogo
                 className=" transform hover:scale-150 ease-out duration-500"
                 size={30}
