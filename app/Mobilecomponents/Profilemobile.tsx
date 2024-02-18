@@ -18,16 +18,26 @@ const Profilemobile = () => {
       <div className="flex items-center">
         <div className="w-[130px] h-[1px] bg-[#000]"></div>{" "}
         <h1 className="text-6xl font-Mohave  tracking-[0.922px] ml-5">Ardi</h1>{" "}
-      </div>
+      </div>{" "}
       <h2 className="w-[289px] text-right text-3xl font-Mohave">Kadriu</h2>
-
-      <div className="bg-[#D9D9D9] max-sm:w-[253px] sm:hidden mt-[25px] flex justify-center items-center ">
+      <div className="flex items-center ">
+        <div className="w-5 h-0.5 bg-black mx-2"></div>
+        <h1
+          data-aos="flip-up"
+          data-aos-duration="100"
+          className="my-6 text-2xl "
+        >
+          UX/UI DESIGNER
+        </h1>
+        <div className="w-5 h-0.5 bg-black mx-2"></div>
+      </div>
+      <div className="w-64 bg-[#D9D9D9] sm:hidden mt-[25px] ">
         <Image
-          className="w-full  "
+          className="w-full "
           src={Porfilepic}
           width={200}
           height={200}
-          alt="me"
+          alt="Me"
         />
       </div>
       <div className="font-Raleway mt-4">

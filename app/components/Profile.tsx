@@ -26,11 +26,11 @@ const Profile = () => {
 
       <div className="w-64 h-[413px] bg-[#D9D9D9] flex justify-center items-center mt-8 ">
         <Image
-          className="w-full flex h-full object-cover"
+          className="w-full flex h-full object-cover "
           src={Porfilepic}
           width={200}
           height={200}
-          alt="adsa"
+          alt="Me"
         />{" "}
       </div>
     </div>

@@ -1,8 +1,9 @@
 "use client";
 import { FaInstagram } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
+import Link from "next/link";
 
-import { FaGoogle } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -28,12 +29,18 @@ const Contact = () => {
         </h3>
         <div className="flex justify-end mt-[11px]">
           <div className=" text-right flex w-[72px] justify-between">
-            <FaInstagram className="transform hover:scale-150 ease-out duration-300" />
-            <CiLinkedin
-              className="transform hover:scale-150 ease-out duration-300"
-              size={17}
-            />{" "}
-            <FaGoogle className="transform hover:scale-150 ease-out duration-300" />
+            <Link href={"https://www.instagram.com/ardi.kadriu/"}>
+              <FaInstagram className="transform hover:scale-150 ease-out duration-300" />
+            </Link>
+            <Link href={"https://www.linkedin.com/in/ardi-kadriu-4b8018297/"}>
+              <CiLinkedin
+                className="transform hover:scale-150 ease-out duration-300"
+                size={17}
+              />{" "}
+            </Link>
+            <Link href={"https://github.com/ardikadriu"}>
+              <FaGithub className="transform hover:scale-150 ease-out duration-300" />
+            </Link>
           </div>
         </div>
       </div>
