@@ -13,7 +13,6 @@ export default function Home() {
       <Skillsmobile />
       <Experiencemobile />
       <Contactmobile />
-
       <Firstsection />
       <Secondsection />
     </main>

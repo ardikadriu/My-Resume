@@ -9,6 +9,8 @@ import Basketweb from "@/public/Projects/basketball-web1.png";
 import TaxiWeb from "@/public/Projects-mobile/taxi-cover.png";
 import SimpleLogin from "@/public/Projects-mobile/web-phones.png";
 import Renthouses from "@/public/Projects-mobile/rent.png";
+import TikTok from "@/public/Projects-mobile/tik tok.png";
+import Facebook from "@/public/Projects-mobile/facebook.png";
 
 import { RxVercelLogo } from "react-icons/rx";
 import { LuFigma } from "react-icons/lu";
@@ -80,7 +82,7 @@ const Experiencemobile = () => {
       </div>
 
       <div data-aos="flip-right" data-aos-duration="400" className=" px-2 pt-2">
-        <Link href={"https://figma-mobile-design-u1bj.vercel.app/"}>
+        <Link href={"https://login-design2.vercel.app/"}>
           <Image src={SimpleLogin} width={240} height={140} alt="WEb" />
         </Link>
         <div className="flex items-center justify-between mt-3">
@@ -92,11 +94,11 @@ const Experiencemobile = () => {
             <LuFigma size={25} />
           </Link>
 
-          <Link href={"https://figma-mobile-design-u1bj.vercel.app"}>
+          <Link href={"https://login-design2.vercel.app/"}>
             <RxVercelLogo size={30} />
           </Link>
 
-          <Link href={"https://github.com/ardikadriu/Basketball-web"}>
+          <Link href={"https://github.com/ardikadriu/login-design2"}>
             <FaGithub size={29} />
           </Link>
         </div>
@@ -125,6 +127,56 @@ const Experiencemobile = () => {
             </Link>
 
             <Link href={"https://github.com/ardikadriu/Rent-house"}>
+              <FaGithub size={29} />
+            </Link>
+          </div>
+        </div>
+
+        <div
+          data-aos="flip-right"
+          data-aos-duration="400"
+          className=" px-2 pt-2"
+        >
+          <Link href={"https://tiktok-figma.vercel.app/"}>
+            <Image src={TikTok} width={240} height={140} alt="WEb" />
+          </Link>
+          <div className="flex items-center justify-between mt-3">
+            <Link className="" href={"/"}>
+              <LuFigma size={25} />
+            </Link>
+
+            <Link href={"https://figma-mobile-design-u1bj.vercel.app"}>
+              <RxVercelLogo size={30} />
+            </Link>
+
+            <Link href={"https://github.com/ardikadriu/Tiktok-figma"}>
+              <FaGithub size={29} />
+            </Link>
+          </div>
+        </div>
+
+        <div
+          data-aos="flip-right"
+          data-aos-duration="400"
+          className=" px-2 pt-2"
+        >
+          <Link href={"https://ipohne13-facebook.vercel.app/"}>
+            <Image src={Facebook} width={240} height={140} alt="WEb" />
+          </Link>
+          <div className="flex items-center justify-between mt-3">
+            <Link
+              href={
+                "https://www.figma.com/file/WqruY50EPcYos61G4sNSo1/facebook-page-(Community)?type=design&node-id=0-1&mode=design&t=aYBUZyjAqdqmx0RB-0"
+              }
+            >
+              <LuFigma size={25} />
+            </Link>
+
+            <Link href={"https://ipohne13-facebook.vercel.app/"}>
+              <RxVercelLogo size={30} />
+            </Link>
+
+            <Link href={"https://github.com/ardikadriu/Ipohne13-Facebook"}>
               <FaGithub size={29} />
             </Link>
           </div>

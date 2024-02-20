@@ -7,6 +7,8 @@ import Basket from "@/public/Projects/basketball-web1.png";
 import Nikeshoes from "@/public/Projects/nike-shoes.png";
 import Watches from "@/public/Projects/Watches.png";
 import Signin from "@/public/Projects/simple sign in.png";
+import Glases from "@/public/Projects/Glases.png";
+import Tomato from "@/public/Projects/Tomato.png";
 
 import { RxVercelLogo } from "react-icons/rx";
 import { LuFigma } from "react-icons/lu";
@@ -168,8 +170,80 @@ const Experience = () => {
           </div>
         </div>
       </div>{" "}
+      <div className="flex justify-between mt-12  w-[809px] max-md:w-[709px]  max-md:flex max-md:justify-between">
+        <div data-aos="flip-right" data-aos-duration="400" data-aos-delay="200">
+          <Link href={"https://sell-web-vert.vercel.app/"}>
+            <Image
+              className="h-[142px]"
+              src={Glases}
+              width={300}
+              height={142}
+              alt="baket"
+            />
+          </Link>
+          <div className="flex justify-between mt-4">
+            <Link
+              href={
+                "https://www.figma.com/file/Gyyca3XdpQPQnkhXKqnXqN/Smart-Watch-eCommerce-Website-(Community)?type=design&node-id=0-1&mode=design&t=Ozm41uRzffI2WbDJ-0"
+              }
+            >
+              <LuFigma
+                className=" transform hover:scale-150 ease-out duration-500"
+                size={30}
+              />
+            </Link>
+            <Link href={"https://sell-web-vert.vercel.app/"}>
+              <RxVercelLogo
+                className=" transform hover:scale-150 ease-out duration-500"
+                size={30}
+              />
+            </Link>
+            <Link href={"https://github.com/ardikadriu/Sell-web"}>
+              <FaGithub
+                className=" transform hover:scale-150 ease-out duration-500"
+                size={30}
+              />
+            </Link>
+          </div>
+        </div>
+        <div data-aos="flip-right" data-aos-duration="400" data-aos-delay="200">
+          <Link href={"https://tomato-lime.vercel.app/"}>
+            <Image
+              className="h-[142px] object-contain"
+              src={Tomato}
+              width={300}
+              height={250}
+              alt="baket"
+            />
+          </Link>
+          <div className="flex justify-between mt-4">
+            <Link
+              href={
+                "https://www.figma.com/file/eIY6VFPmcUUoOQ2EsFLQEC/World-Peas-Tomato-(Community)?type=design&node-id=1-2&mode=design&t=EuiRoxUBihfGcNkI-0"
+              }
+            >
+              <LuFigma
+                className=" transform hover:scale-150 ease-out duration-500"
+                size={30}
+              />
+            </Link>
+            <Link href={"https://tomato-lime.vercel.app/"}>
+              <RxVercelLogo
+                className=" transform hover:scale-150 ease-out duration-500"
+                size={30}
+              />
+            </Link>
+            <Link href={"https://github.com/ardikadriu/Tomato"}>
+              <FaGithub
+                className=" transform hover:scale-150 ease-out duration-500"
+                size={30}
+              />
+            </Link>
+          </div>
+        </div>
+      </div>{" "}
       <p className=" max-w-[809px] text-center mt-7 leading-5 text-[15px] font-Raleway ">
-        Experienced in crafting 50+ Figma templates. Eager to leverage creative
+        Experienced in crafting 40+ Figma templates. Eager to leverage creative
         skills and learn quickly in a collaborative development environment.
       </p>
     </div>

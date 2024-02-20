@@ -45,9 +45,9 @@ const Profilemobile = () => {
         <p className="max-w-[300px] text-center mt-2">
           Aspiring front-end developer with a strong passion for creating
           engaging and user-friendly web experiences. Eager to leverage my
-          educational background in [Your Degree or Relevant Courses] and
-          enthusiasm for front-end technologies to contribute and grow as a
-          valuable member of a dynamic development team.
+          education background in and enthusiasm for front-end technologies to
+          contribute and grow as a valuable member of a dynamic development
+          team.
         </p>
       </div>
     </div>

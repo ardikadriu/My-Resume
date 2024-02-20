@@ -10,7 +10,7 @@ const Navbar = () => {
   });
   return (
     <div className="sm:hidden text-blue-800 mt-3  ">
-      <ul className="flex gap-5 font-Mohave font-semibold active:red  mx-20 ">
+      <ul className="flex gap-5 font-Mohave font-semibold active:red  ">
         <Link href={"#Profile"} data-aos="fade-right" data-aos-duration="200">
           {" "}
           <li className=" border border-blue-800 px-2 py-1 ">Profile</li>
