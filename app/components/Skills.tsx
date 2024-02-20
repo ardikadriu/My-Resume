@@ -9,7 +9,7 @@ const Skills = () => {
   });
 
   return (
-    <div className="flex mt-20 " data-aos="fade-right" data-aos-duration="700">
+    <div className="flex mt-52 " data-aos="fade-right" data-aos-duration="700">
       {" "}
       <div className="flex">
         <div className="mt-[59px]">

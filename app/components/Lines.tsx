@@ -22,7 +22,7 @@ const Lines = () => {
         <Prof />
       </div>
       <div className="flex">
-        <div className="w-0.5 h-[578px]  bg-black ml-9 mt-12 mb-10"></div>
+        <div className="w-0.5 h-[778px]  bg-black ml-9 mt-12 mb-10"></div>
         <Experience />
       </div>
     </div>
