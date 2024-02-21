@@ -184,7 +184,7 @@ const Experience = () => {
           <div className="flex justify-between mt-4">
             <Link
               href={
-                "https://www.figma.com/file/Gyyca3XdpQPQnkhXKqnXqN/Smart-Watch-eCommerce-Website-(Community)?type=design&node-id=0-1&mode=design&t=Ozm41uRzffI2WbDJ-0"
+                "https://www.figma.com/file/zYTjfBalkGa7hrLXuQHYgP/Landing-Page-001-(Community)?type=design&node-id=0-1&mode=design&t=d5VRbyWHsfcIP2mR-0"
               }
             >
               <LuFigma
