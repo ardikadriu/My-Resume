@@ -135,7 +135,7 @@ const Experiencemobile = () => {
         <div
           data-aos="flip-right"
           data-aos-duration="400"
-          className=" px-2 pt-2"
+          className=" px-2 pt-2 mt-4"
         >
           <Link href={"https://tiktok-figma.vercel.app/"}>
             <Image src={TikTok} width={240} height={140} alt="WEb" />
@@ -158,7 +158,7 @@ const Experiencemobile = () => {
         <div
           data-aos="flip-right"
           data-aos-duration="400"
-          className=" px-2 pt-2"
+          className=" px-2 pt-2 mt-4"
         >
           <Link href={"https://ipohne13-facebook.vercel.app/"}>
             <Image src={Facebook} width={240} height={140} alt="WEb" />
