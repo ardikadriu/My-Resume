@@ -188,7 +188,7 @@ const Experiencemobile = () => {
           data-aos-duration="400"
           className="max-w-[250px] text-center font-Raleway mt-6 font-medium"
         >
-          Experienced in crafting 50+ Figma templates. Eager to leverage
+          Experienced in crafting 40+ Figma templates. Eager to leverage
           creative skills and learn quickly in a collaborative development
           environment.
         </p>
