@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Basket from "@/public/Projects/basketball-web1.png";
+
 import { LuFigma } from "react-icons/lu";
 import { FaGithub } from "react-icons/fa6";
 import { useEffect } from "react";
