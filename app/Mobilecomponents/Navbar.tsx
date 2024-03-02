@@ -9,16 +9,16 @@ const Navbar = () => {
     AOS.init({});
   });
   return (
-    <div className="sm:hidden text-blue-800 mt-3  ">
+    <div className="sm:hidden text-black mt-3  ">
       <ul className="flex gap-5 font-Mohave font-semibold active:red  ">
         <Link href={"#Profile"} data-aos="fade-right" data-aos-duration="200">
           {" "}
-          <li className=" border border-blue-800 px-2 py-1 ">Profile</li>
+          <li className=" border border-black px-2 py-1 ">Profile</li>
         </Link>
 
         <Link href={"#Skills"} data-aos="fade-right" data-aos-duration="400">
           {" "}
-          <li className=" border border-blue-800 px-2 py-1 ">Skills</li>
+          <li className=" border border-black px-2 py-1 ">Skills</li>
         </Link>
 
         <Link
@@ -26,11 +26,11 @@ const Navbar = () => {
           data-aos="fade-right"
           data-aos-duration="600"
         >
-          <li className=" border border-blue-800 px-2 py-1 ">Portofolio</li>
+          <li className=" border border-black px-2 py-1 ">Portofolio</li>
         </Link>
 
         <Link href={"#Contact"} data-aos="fade-right" data-aos-duration="800">
-          <li className=" border border-blue-800 px-2 py-1 ">Contact</li>
+          <li className=" border border-black px-2 py-1 ">Contact</li>
         </Link>
       </ul>
     </div>

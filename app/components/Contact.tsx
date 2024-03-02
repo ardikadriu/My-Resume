@@ -18,7 +18,7 @@ const Contact = () => {
       data-aos="fade-right"
       data-aos-duration="1000"
       data-aos-delay="10"
-      className="flex mt-48 pb-10"
+      className="flex mt-40 pb-10"
     >
       <div className=" mt-[21px] ">
         <h1 className="text-3xl text-right leading-9 tracking-[1.5px] font-Raleway font-semibold ">

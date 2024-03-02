@@ -1,251 +1,47 @@
 "use client";
 
-import Image from "next/image";
-import Link from "next/link";
-
-import Basket from "@/public/Projects/basketball-web1.png";
-import Nikeshoes from "@/public/Projects/nike-shoes.png";
-import Watches from "@/public/Projects/Watches.png";
-import Signin from "@/public/Projects/simple sign in.png";
-import Glases from "@/public/Projects/Glases.png";
-import Tomato from "@/public/Projects/Tomato.png";
-
-import { RxVercelLogo } from "react-icons/rx";
-import { LuFigma } from "react-icons/lu";
-import { FaGithub } from "react-icons/fa6";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { projectList } from "@/project-list";
+import Project from "./Project";
 
 const Experience = () => {
   useEffect(() => {
     AOS.init({}), [];
   });
   return (
-    <div className="mt-12 ml-9 max-md:pr-5 ">
+    <div className="mt-12 ml-9 max-md:pr-5  ">
       <h1
         data-aos="flip-right"
         data-aos-duration="400"
-        className="text-3xl  font-Raleway font-semibold  max-w-[809px]  mr-10"
+        className="text-3xl  font-Raleway font-semibold  mb-10"
       >
         EXPERIENCE
       </h1>
-      <div className="flex justify-between mt-12 max-md:w-[709px]  max-md:flex max-md:justify-between  w-[809px]">
-        <div data-aos="flip-right" data-aos-duration="400" data-aos-delay="200">
-          <Link href={"https://basketball-web-ruby.vercel.app/"}>
-            <Image src={Basket} width={300} height={250} alt="baket" />
-          </Link>
-          <div className="flex justify-between mt-4">
-            <Link
-              href={
-                "https://www.figma.com/file/Friex6UklMP2wriHhPTR27/Sport-Website-(Community)?type=design&mode=design"
-              }
-            >
-              <LuFigma
-                className=" transform hover:scale-150 ease-out duration-500"
-                size={30}
+      <div className="">
+        <div className="grid grid-cols-2 grid-rows-3 max-md:w-[709px] max-md:justify-between gap-10  max-md:grid max-md:grid-cols-2 max-md:row-span-3 ">
+          {projectList.map((el, index) => {
+            if (el.devices == "mobile") {
+              return null;
+            }
+            return (
+              <Project
+                image={el.image}
+                figmaLink={el.figmaLink}
+                vercelLink={el.vercelLink}
+                githubLink={el.githubLink}
               />
-            </Link>
-
-            <Link href={"https://basketball-web-ruby.vercel.app/"}>
-              <RxVercelLogo
-                className=" transform hover:scale-150 ease-out duration-500"
-                size={30}
-              />
-            </Link>
-            <Link href={"https://github.com/ardikadriu/Basketball-web"}>
-              <FaGithub
-                className=" transform hover:scale-150 ease-out duration-500"
-                size={30}
-              />
-            </Link>
-          </div>
+            );
+          })}
         </div>
-        <div data-aos="flip-right" data-aos-duration="400" data-aos-delay="200">
-          <Link href={"https://nike-layout.vercel.app/"}>
-            <Image
-              className="h-[142px] max-md:h-[142px]"
-              src={Nikeshoes}
-              width={300}
-              height={250}
-              alt="baket"
-            />
-          </Link>
-          <div className="flex justify-between mt-4">
-            <Link
-              href={
-                "https://www.figma.com/file/1qzy1idS9BgNHHpIzD8EUM/nike-shoes-logo-(Community)?mode=dev"
-              }
-            >
-              <LuFigma
-                className=" transform hover:scale-150 ease-out duration-500"
-                size={30}
-              />
-            </Link>
 
-            <Link href={"https://nike-layout.vercel.app/"}>
-              <RxVercelLogo
-                className=" transform hover:scale-150 ease-out duration-500"
-                size={30}
-              />
-            </Link>
-            <Link href={"https://github.com/ardikadriu/nike-layout"}>
-              <FaGithub
-                className=" transform hover:scale-150 ease-out duration-500"
-                size={30}
-              />
-            </Link>
-          </div>
-        </div>
+        <p className=" max-w-[809px] text-center mt-7 leading-5 text-[15px] font-Raleway ">
+          Experienced in crafting 40+ Figma templates. Eager to leverage
+          creative skills and learn quickly in a collaborative development
+          environment.
+        </p>
       </div>
-      <div className="flex justify-between mt-12  w-[809px] max-md:w-[709px]  max-md:flex max-md:justify-between">
-        <div data-aos="flip-right" data-aos-duration="400" data-aos-delay="200">
-          <Link href={"https://watches-iota.vercel.app/"}>
-            <Image
-              className="h-[142px]"
-              src={Watches}
-              width={300}
-              height={142}
-              alt="baket"
-            />
-          </Link>
-          <div className="flex justify-between mt-4">
-            <Link
-              href={
-                "https://www.figma.com/file/Gyyca3XdpQPQnkhXKqnXqN/Smart-Watch-eCommerce-Website-(Community)?node-id=0%3A1&mode=dev"
-              }
-            >
-              <LuFigma
-                className=" transform hover:scale-150 ease-out duration-500"
-                size={30}
-              />
-            </Link>
-            <Link href={"https://watches-iota.vercel.app/"}>
-              <RxVercelLogo
-                className=" transform hover:scale-150 ease-out duration-500"
-                size={30}
-              />
-            </Link>
-            <Link href={"https://github.com/ardikadriu/Watches"}>
-              <FaGithub
-                className=" transform hover:scale-150 ease-out duration-500"
-                size={30}
-              />
-            </Link>
-          </div>
-        </div>
-        <div data-aos="flip-right" data-aos-duration="400" data-aos-delay="200">
-          <Link href={"https://sign-in-design.vercel.app/"}>
-            <Image
-              className="h-[142px]"
-              src={Signin}
-              width={300}
-              height={250}
-              alt="baket"
-            />
-          </Link>
-          <div className="flex justify-between mt-4">
-            <Link
-              href={
-                "https://www.figma.com/file/5UAzszP1yzinVOBxCFuoWk/Sign-In-Page-Design-(Community)?mode=dev"
-              }
-            >
-              <LuFigma
-                className=" transform hover:scale-150 ease-out duration-500"
-                size={30}
-              />
-            </Link>
-            <Link href={"https://sign-in-design.vercel.app/"}>
-              <RxVercelLogo
-                className=" transform hover:scale-150 ease-out duration-500"
-                size={30}
-              />
-            </Link>
-            <Link href={"https://github.com/ardikadriu/Sign-in-Design"}>
-              <FaGithub
-                className=" transform hover:scale-150 ease-out duration-500"
-                size={30}
-              />
-            </Link>
-          </div>
-        </div>
-      </div>{" "}
-      <div className="flex justify-between mt-12  w-[809px] max-md:w-[709px]  max-md:flex max-md:justify-between">
-        <div data-aos="flip-right" data-aos-duration="400" data-aos-delay="200">
-          <Link href={"https://sell-web-vert.vercel.app/"}>
-            <Image
-              className="h-[142px]"
-              src={Glases}
-              width={300}
-              height={142}
-              alt="baket"
-            />
-          </Link>
-          <div className="flex justify-between mt-4">
-            <Link
-              href={
-                "https://www.figma.com/file/zYTjfBalkGa7hrLXuQHYgP/Landing-Page-001-(Community)?type=design&node-id=0-1&mode=design&t=d5VRbyWHsfcIP2mR-0"
-              }
-            >
-              <LuFigma
-                className=" transform hover:scale-150 ease-out duration-500"
-                size={30}
-              />
-            </Link>
-            <Link href={"https://sell-web-vert.vercel.app/"}>
-              <RxVercelLogo
-                className=" transform hover:scale-150 ease-out duration-500"
-                size={30}
-              />
-            </Link>
-            <Link href={"https://github.com/ardikadriu/Sell-web"}>
-              <FaGithub
-                className=" transform hover:scale-150 ease-out duration-500"
-                size={30}
-              />
-            </Link>
-          </div>
-        </div>
-        <div data-aos="flip-right" data-aos-duration="400" data-aos-delay="200">
-          <Link href={"https://tomato-lime.vercel.app/"}>
-            <Image
-              className="h-[142px] object-contain"
-              src={Tomato}
-              width={300}
-              height={250}
-              alt="baket"
-            />
-          </Link>
-          <div className="flex justify-between mt-4">
-            <Link
-              href={
-                "https://www.figma.com/file/eIY6VFPmcUUoOQ2EsFLQEC/World-Peas-Tomato-(Community)?type=design&node-id=1-2&mode=design&t=EuiRoxUBihfGcNkI-0"
-              }
-            >
-              <LuFigma
-                className=" transform hover:scale-150 ease-out duration-500"
-                size={30}
-              />
-            </Link>
-            <Link href={"https://tomato-lime.vercel.app/"}>
-              <RxVercelLogo
-                className=" transform hover:scale-150 ease-out duration-500"
-                size={30}
-              />
-            </Link>
-            <Link href={"https://github.com/ardikadriu/Tomato"}>
-              <FaGithub
-                className=" transform hover:scale-150 ease-out duration-500"
-                size={30}
-              />
-            </Link>
-          </div>
-        </div>
-      </div>{" "}
-      <p className=" max-w-[809px] text-center mt-7 leading-5 text-[15px] font-Raleway ">
-        Experienced in crafting 40+ Figma templates. Eager to leverage creative
-        skills and learn quickly in a collaborative development environment.
-      </p>
     </div>
   );
 };
