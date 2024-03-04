@@ -35,7 +35,7 @@ const Experiencemobile = () => {
         })}
       </div>
 
-      <div>
+      <div className="flex justify-center">
         <p
           data-aos="flip-right"
           data-aos-duration="400"
